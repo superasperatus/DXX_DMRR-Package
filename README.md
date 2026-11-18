@@ -224,3 +224,18 @@ archived robustness analyses remain specific to the included archive.
 - See [provenance and access](00_documentation/PROVENANCE_AND_ACCESS.md) for
   sources, citation details, and redistribution limitations. Inclusion here does
   not grant a blanket license for third-party stimuli or provider responses.
+
+## AI Use
+
+GitHub Copilot was used to assist with drafting and revising the documentation
+and writing unit tests. This assistance covered explanations of the repository
+structure, data collection and processing workflows, and test cases for response
+decoding, trial selection, and metric calculations.
+
+This development assistance is separate from the commercial-model responses
+analyzed in the study. The archived response data are preserved unchanged, and
+the reported archive results are computed from those inputs by the documented
+processing workflow.
+
+Responsibility for the repository's contents, methodological choices, and
+interpretation of the results remains with the study's authors.
