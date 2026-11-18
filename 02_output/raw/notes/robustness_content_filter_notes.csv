@@ -1,0 +1,11 @@
+model_id,item_id,condition,valid_count,reason,check
+gpt-4.1,ITEM_118,BA,0,content filter,temperature
+gpt-4.1,ITEM_193,BA,0,content filter,temperature
+gpt-4.1-mini,ITEM_118,BA,0,content filter,temperature
+gpt-4.1-mini,ITEM_193,BA,0,content filter,temperature
+gpt-4o,ITEM_118,BA,0,content filter,temperature
+gpt-4o,ITEM_193,BA,0,content filter,temperature
+o4-mini,ITEM_118,BA,0,content filter,temperature
+o4-mini,ITEM_193,BA,0,content filter,temperature
+Phi-4,ITEM_118,BA,13,content filter,temperature
+Phi-4,ITEM_193,BA,20,content filter,temperature

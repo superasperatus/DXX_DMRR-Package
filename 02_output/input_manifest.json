@@ -1,0 +1,819 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-11-17",
+  "description": "Archived inputs for the study's commercial-model analyses; source CSVs are preserved byte-for-byte.",
+  "paper_source": "IPM-D-26-04197_R1 (1).pdf, Table 6 (PDF page 18) and Table 11 (PDF page 26).",
+  "files": [
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "main",
+        "raw_gpt-4.1_commercial.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "raw_gpt-4.1_commercial.csv"
+      ],
+      "role": "responses",
+      "sha256": "abf1ea299af1c9c59579789e68ae42c6375456888f5a625865f55eb1e81f2029",
+      "bytes": 1394341,
+      "rows": 19765,
+      "experiment": "main",
+      "model_id": "gpt-4.1",
+      "arm": "0.7",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_original",
+        "raw_temp10_gpt-4.1.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp",
+        "raw_temp10_gpt-4.1.csv"
+      ],
+      "role": "responses",
+      "sha256": "ff271f01f346e562485834de841fe08c1029824bf76bf265fb8aa8a9fb369bac",
+      "bytes": 280495,
+      "rows": 3906,
+      "experiment": "temperature_original",
+      "model_id": "gpt-4.1",
+      "arm": "1.0",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "prompt",
+        "raw_prompt_gpt-4.1.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_prompt",
+        "raw_prompt_gpt-4.1.csv"
+      ],
+      "role": "responses",
+      "sha256": "5179a94f645922edf7ac1dfa54b2d71d5398fd7d8d63e194e259e5d299c3b505",
+      "bytes": 426466,
+      "rows": 6000,
+      "experiment": "prompt",
+      "model_id": "gpt-4.1",
+      "arm_column": "prompt_variant",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp02_gpt-4.1.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp02_gpt-4.1.csv"
+      ],
+      "role": "responses",
+      "sha256": "23d39cbb5d603bd6ead99399a88cb2504a2daaec6e2b45024618804526cd4c10",
+      "bytes": 301254,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4.1",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp07_gpt-4.1.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp07_gpt-4.1.csv"
+      ],
+      "role": "responses",
+      "sha256": "9d629e2edf48e2bea3e6d4aa13a431dd6089129b1bd2616a49c6a2fdbf57ac5f",
+      "bytes": 301840,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4.1",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp10_gpt-4.1.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp10_gpt-4.1.csv"
+      ],
+      "role": "responses",
+      "sha256": "503b62234dfcd5eef0bcb760fd151c85437c40c447794588a861aa051132c253",
+      "bytes": 301956,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4.1",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "main",
+        "raw_gpt-4.1-mini_commercial.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "raw_gpt-4.1-mini_commercial.csv"
+      ],
+      "role": "responses",
+      "sha256": "0b5913bded98c06c83ae091c7c3c38edd5482363ebc22c20573efbfd9e51678e",
+      "bytes": 1488621,
+      "rows": 19765,
+      "experiment": "main",
+      "model_id": "gpt-4.1-mini",
+      "arm": "0.7",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_original",
+        "raw_temp10_gpt-4.1-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp",
+        "raw_temp10_gpt-4.1-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "985c0ee3d506e114e3cac11844c51d8d85c722843c9917cab41b7b284cbbfa32",
+      "bytes": 302029,
+      "rows": 3906,
+      "experiment": "temperature_original",
+      "model_id": "gpt-4.1-mini",
+      "arm": "1.0",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "prompt",
+        "raw_prompt_gpt-4.1-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_prompt",
+        "raw_prompt_gpt-4.1-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "d726fec23acdbcda70c5671d9a5e81848864331d7944fb3d1626c50986c47451",
+      "bytes": 460915,
+      "rows": 6000,
+      "experiment": "prompt",
+      "model_id": "gpt-4.1-mini",
+      "arm_column": "prompt_variant",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp02_gpt-4.1-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp02_gpt-4.1-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "390abbadc6e5ed2c4ac20e817e2d6291136299d15a1b1a572fdb521bdbb3e14f",
+      "bytes": 324212,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4.1-mini",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp07_gpt-4.1-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp07_gpt-4.1-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "9185b57de77e56603e7197a0b87c036132815f94cca64aa848ae2dd5069434ba",
+      "bytes": 323137,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4.1-mini",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp10_gpt-4.1-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp10_gpt-4.1-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "19faf1629fc4bc55bf5bd08e901834e36f9bde7bca4958a28e99e2ce92aef1da",
+      "bytes": 323185,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4.1-mini",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "main",
+        "raw_gpt-4o_commercial.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "raw_gpt-4o_commercial.csv"
+      ],
+      "role": "responses",
+      "sha256": "9510437ab081d8cc59bc829b10572ed6fc1349d49add384a4b12dcd6735dc636",
+      "bytes": 1414836,
+      "rows": 19765,
+      "experiment": "main",
+      "model_id": "gpt-4o",
+      "arm": "0.7",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_original",
+        "raw_temp10_gpt-4o.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp",
+        "raw_temp10_gpt-4o.csv"
+      ],
+      "role": "responses",
+      "sha256": "40cbfb5ceb8820dd7f31463d2a8201863fd5fad4ebd3701a1788f4eed6f1a61e",
+      "bytes": 290435,
+      "rows": 3906,
+      "experiment": "temperature_original",
+      "model_id": "gpt-4o",
+      "arm": "1.0",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "prompt",
+        "raw_prompt_gpt-4o.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_prompt",
+        "raw_prompt_gpt-4o.csv"
+      ],
+      "role": "responses",
+      "sha256": "ff3a7881fbc99eec598fc9692e95e871402a08f93ea500aa6f7fd735201bf0c3",
+      "bytes": 440965,
+      "rows": 6000,
+      "experiment": "prompt",
+      "model_id": "gpt-4o",
+      "arm_column": "prompt_variant",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp02_gpt-4o.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp02_gpt-4o.csv"
+      ],
+      "role": "responses",
+      "sha256": "b2ddb96d9c727a3b359cc3c490d68c06a45106d858126d7632292946978d4403",
+      "bytes": 318260,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4o",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp07_gpt-4o.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp07_gpt-4o.csv"
+      ],
+      "role": "responses",
+      "sha256": "30c9b8ce2c1764d68afa4491fd40c49cbeeaa82eed498a8ab6d199e426f17ee2",
+      "bytes": 318240,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4o",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp10_gpt-4o.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp10_gpt-4o.csv"
+      ],
+      "role": "responses",
+      "sha256": "3b0ad7d0504f15d9e45e075c2eb631b821d493ea95e79fb35771a98799af3949",
+      "bytes": 317986,
+      "rows": 4001,
+      "experiment": "temperature_v2",
+      "model_id": "gpt-4o",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "main",
+        "raw_o4-mini_commercial.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "raw_o4-mini_commercial.csv"
+      ],
+      "role": "responses",
+      "sha256": "bdef06b3fa52c25c78a90db36f93a0e4b82fd1b1fab063e365e3f5f5d8755575",
+      "bytes": 1725281,
+      "rows": 23542,
+      "experiment": "main",
+      "model_id": "o4-mini",
+      "arm": "0.7",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_original",
+        "raw_temp10_o4-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp",
+        "raw_temp10_o4-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "95704080ab0076de51f74be08d348c1d0ec8c7b926ae9b728691b030b8cf36ab",
+      "bytes": 473451,
+      "rows": 6175,
+      "experiment": "temperature_original",
+      "model_id": "o4-mini",
+      "arm": "1.0",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "prompt",
+        "raw_prompt_o4-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_prompt",
+        "raw_prompt_o4-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "103fd9c052095eb3ac6c2fa34353c979a42414fe002080a50756b58675561ee4",
+      "bytes": 695136,
+      "rows": 9516,
+      "experiment": "prompt",
+      "model_id": "o4-mini",
+      "arm_column": "prompt_variant",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_tempfixed_o4-mini.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_tempfixed_o4-mini.csv"
+      ],
+      "role": "responses",
+      "sha256": "5e17220d9898f896e2150ca96acc918d3ef343bfb0bbff89e77347988f5e1e49",
+      "bytes": 346160,
+      "rows": 4248,
+      "experiment": "temperature_v2",
+      "model_id": "o4-mini",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "main",
+        "raw_Llama-3.3-70B-Instruct_commercial.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "raw_Llama-3.3-70B-Instruct_commercial.csv"
+      ],
+      "role": "responses",
+      "sha256": "e4bd04fa7f03d8b96781b25d6ef11ec00e44757ddbb5ad6c2801ac273adc1078",
+      "bytes": 1671348,
+      "rows": 20002,
+      "experiment": "main",
+      "model_id": "Llama-3.3-70B-Instruct",
+      "arm": "0.7",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_original",
+        "raw_temp10_Llama-3.3-70B-Instruct.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp",
+        "raw_temp10_Llama-3.3-70B-Instruct.csv"
+      ],
+      "role": "responses",
+      "sha256": "1971f86f2d7ee632a375d8e5aacd0521b0a79374615c3831eda810e430878948",
+      "bytes": 340219,
+      "rows": 4000,
+      "experiment": "temperature_original",
+      "model_id": "Llama-3.3-70B-Instruct",
+      "arm": "1.0",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "prompt",
+        "raw_prompt_Llama-3.3-70B-Instruct.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_prompt",
+        "raw_prompt_Llama-3.3-70B-Instruct.csv"
+      ],
+      "role": "responses",
+      "sha256": "5189c5e32c5e578f9d00082c9f500345df7fa5def44c4fea21a77348554523ca",
+      "bytes": 514389,
+      "rows": 6000,
+      "experiment": "prompt",
+      "model_id": "Llama-3.3-70B-Instruct",
+      "arm_column": "prompt_variant",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp02_Llama-3.3-70B-Instruct.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp02_Llama-3.3-70B-Instruct.csv"
+      ],
+      "role": "responses",
+      "sha256": "b9fd2ab34c30ff3951e50308bbadedee4d102588dd0c4fdff35825c26891e5f6",
+      "bytes": 357373,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "Llama-3.3-70B-Instruct",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp07_Llama-3.3-70B-Instruct.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp07_Llama-3.3-70B-Instruct.csv"
+      ],
+      "role": "responses",
+      "sha256": "2d610ecd53ef49df43959dfb7d0fc6eae1361a12aed79286472721129c7d117d",
+      "bytes": 357070,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "Llama-3.3-70B-Instruct",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp10_Llama-3.3-70B-Instruct.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp10_Llama-3.3-70B-Instruct.csv"
+      ],
+      "role": "responses",
+      "sha256": "b08a4647d461f2daa762603bb10288b315db278228bc1e6b09b5c66fac6d92e0",
+      "bytes": 356753,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "Llama-3.3-70B-Instruct",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "main",
+        "raw_Phi-4_commercial.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "raw_Phi-4_commercial.csv"
+      ],
+      "role": "responses",
+      "sha256": "a0ad09f32271dbbb59422469079e3672a09efc924909f5b1853873692a9414e5",
+      "bytes": 1377275,
+      "rows": 20020,
+      "experiment": "main",
+      "model_id": "Phi-4",
+      "arm": "0.7",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_original",
+        "raw_temp10_Phi-4.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp",
+        "raw_temp10_Phi-4.csv"
+      ],
+      "role": "responses",
+      "sha256": "c56fccd05c1dff8610a0ff76ae564dc06aa267c28d7e9f43068d2c60becf4923",
+      "bytes": 305354,
+      "rows": 4187,
+      "experiment": "temperature_original",
+      "model_id": "Phi-4",
+      "arm": "1.0",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "prompt",
+        "raw_prompt_Phi-4.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_prompt",
+        "raw_prompt_Phi-4.csv"
+      ],
+      "role": "responses",
+      "sha256": "97f419aa97f98f905eddc771322aa29d29947e38edb0450653b393f5210a5602",
+      "bytes": 507282,
+      "rows": 7244,
+      "experiment": "prompt",
+      "model_id": "Phi-4",
+      "arm_column": "prompt_variant",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp02_Phi-4.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp02_Phi-4.csv"
+      ],
+      "role": "responses",
+      "sha256": "48e2acbf0e9cc42cbf73c6a0589804edd1c005b3343667e4112073cbe466f043",
+      "bytes": 295381,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "Phi-4",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp07_Phi-4.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp07_Phi-4.csv"
+      ],
+      "role": "responses",
+      "sha256": "5847ee4cc6cebc43d3066ecbb4a2bd0a976f6368e40fb36d5dbc43f83feb3209",
+      "bytes": 295735,
+      "rows": 4000,
+      "experiment": "temperature_v2",
+      "model_id": "Phi-4",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "temperature_v2",
+        "raw_temp10_Phi-4.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_temp_v2",
+        "raw_temp10_Phi-4.csv"
+      ],
+      "role": "responses",
+      "sha256": "bb124b7ac007c4650831be40d7fbafbd4c403058ce2260b31844472968e8ad2a",
+      "bytes": 296736,
+      "rows": 4002,
+      "experiment": "temperature_v2",
+      "model_id": "Phi-4",
+      "arm_column": "temperature",
+      "response_coding": "legacy_position"
+    },
+    {
+      "path": [
+        "01_collection",
+        "stimuli",
+        "pool_final_200.csv"
+      ],
+      "source_path": [
+        "source",
+        "pool_final_200.csv"
+      ],
+      "role": "stimuli",
+      "sha256": "eb247c60c107fcb7c786cdfe0ac32466b8c0fff6f8f48c63730ed32329ac2767",
+      "bytes": 101231,
+      "rows": 200
+    },
+    {
+      "path": [
+        "01_collection",
+        "stimuli",
+        "robustness_prompt_subsample.csv"
+      ],
+      "source_path": [
+        "robustness",
+        "Local-model-check-scripts",
+        "robustness_prompt_subsample.csv"
+      ],
+      "role": "stimuli",
+      "sha256": "561a364822b91082ca1802b5e76a930f5e5a5ab308f32761f30e05404980297a",
+      "bytes": 8664,
+      "rows": 20
+    },
+    {
+      "path": [
+        "01_collection",
+        "stimuli",
+        "robustness_temp10_subsample.csv"
+      ],
+      "source_path": [
+        "robustness",
+        "Local-model-check-scripts",
+        "robustness_temp10_subsample.csv"
+      ],
+      "role": "stimuli",
+      "sha256": "34e2eba3a4560ce699d90fdfaec85e8e32b3bcae3ba554d5ad3d948649c00d88",
+      "bytes": 21393,
+      "rows": 40
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "notes",
+        "content_filter_notes.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "content_filter_notes.csv"
+      ],
+      "role": "notes",
+      "sha256": "04493e1394dadefd7f353a9f400f623f397c1ab2a139865adbd81cda4cd5d8b1",
+      "bytes": 827,
+      "rows": 20
+    },
+    {
+      "path": [
+        "02_output",
+        "raw",
+        "notes",
+        "robustness_content_filter_notes.csv"
+      ],
+      "source_path": [
+        "results_commercial",
+        "robustness_content_filter_notes.csv"
+      ],
+      "role": "notes",
+      "sha256": "59b0da690eb9e93087a6572af79562266114b982e115a0255b11bf17c08cc848",
+      "bytes": 559,
+      "rows": 10
+    },
+    {
+      "path": [
+        "00_documentation",
+        "references",
+        "table6_reference.csv"
+      ],
+      "source": "Manually transcribed displayed commercial-model numerical cells from the supplied R1 manuscript PDF; reference checks only.",
+      "role": "reference",
+      "sha256": "8d66ca151c9ab39872a4e670f9477b2dd937b2f01bd19cc36c9dd7fbe51d3629",
+      "bytes": 348,
+      "rows": 6
+    },
+    {
+      "path": [
+        "00_documentation",
+        "references",
+        "table11_reference.csv"
+      ],
+      "source": "Manually transcribed displayed commercial-model numerical cells from the supplied R1 manuscript PDF; reference checks only.",
+      "role": "reference",
+      "sha256": "5b2c2aab3600d599058c7431f8c70381efbe7a08734ed357d7195010bebd58cc",
+      "bytes": 275,
+      "rows": 6
+    }
+  ]
+}

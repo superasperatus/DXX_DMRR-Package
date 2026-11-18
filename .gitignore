@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+02_output/new_runs/
+04_results/**/derived/
+04_results/**/logs/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+experiment,arm,model_id,item_id,n_AB,n_BA,reason
+main,0.7,gpt-4.1,ITEM_116,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1,ITEM_119,0,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1-mini,ITEM_116,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1-mini,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1-mini,ITEM_119,0,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4.1-mini,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4o,ITEM_116,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4o,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4o,ITEM_119,0,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,gpt-4o,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,o4-mini,ITEM_116,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,o4-mini,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,o4-mini,ITEM_119,0,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+main,0.7,o4-mini,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,Phi-4,ITEM_118,50,13,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,Phi-4,ITEM_193,50,20,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,gpt-4.1,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,gpt-4.1,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,gpt-4.1-mini,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,gpt-4.1-mini,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,gpt-4o,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,gpt-4o,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,o4-mini,ITEM_118,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement
+temperature_original,1.0,o4-mini,ITEM_193,50,0,Incomplete AB/BA pair; no imputation or synthetic replacement

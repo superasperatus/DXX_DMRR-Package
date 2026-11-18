@@ -1,0 +1,7 @@
+model_id,mean_abs_Bcorr_07,mean_abs_Bcorr_10,shift,n_paired_items,spearman_r,spearman_pvalue,rank_status,interpretation
+gpt-4.1,0.7636842105,0.7663157895,0.002631578947,38,0.8600182192,4.60175408e-12,estimated,Paired complete archived items
+gpt-4.1-mini,0.7392105263,0.7394736842,0.0002631578947,38,0.9910541586,4.336563041e-33,estimated,Paired complete archived items
+gpt-4o,0.6797368421,0.6702631579,-0.009473684211,38,0.942801502,9.323308816e-19,estimated,Paired complete archived items
+o4-mini,0.8142105263,0.8144736842,0.0002631578947,38,0.9980254498,7.093034466e-45,estimated,Unverified nominal contrast; o4-mini does not support requested temperature
+Llama-3.3-70B-Instruct,0.8525,0.8555,0.003,40,0.9666652518,4.355936259e-24,estimated,Paired complete archived items
+Phi-4,0.7392105263,0.7365789474,-0.002631578947,38,0.9428425578,9.206707998e-19,estimated,Paired complete archived items

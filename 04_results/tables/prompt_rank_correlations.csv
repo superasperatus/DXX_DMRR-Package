@@ -1,0 +1,19 @@
+model_id,left_arm,right_arm,n_paired_items,spearman_r,spearman_pvalue,rank_status
+gpt-4.1,V1,V2,20,0.6079883267,0.004455887169,estimated
+gpt-4.1,V1,V3,20,0.6079883267,0.004455887169,estimated
+gpt-4.1,V2,V3,20,0.6848249027,0.0008642153099,estimated
+gpt-4.1-mini,V1,V2,20,0.7939459645,2.928269343e-05,estimated
+gpt-4.1-mini,V1,V3,20,0.6381322957,0.002465316183,estimated
+gpt-4.1-mini,V2,V3,20,0.8334111148,5.040232311e-06,estimated
+gpt-4o,V1,V2,20,0.9206973768,8.811506384e-09,estimated
+gpt-4o,V1,V3,20,0.788414775,3.636512127e-05,estimated
+gpt-4o,V2,V3,20,0.7084149287,0.0004727859497,estimated
+o4-mini,V1,V2,20,0.9179623067,1.183473024e-08,estimated
+o4-mini,V1,V3,20,0.8570284159,1.394247865e-06,estimated
+o4-mini,V2,V3,20,0.7772633872,5.524465806e-05,estimated
+Llama-3.3-70B-Instruct,V1,V2,20,,,insufficient variation
+Llama-3.3-70B-Instruct,V1,V3,20,,,insufficient variation
+Llama-3.3-70B-Instruct,V2,V3,20,,,insufficient variation
+Phi-4,V1,V2,20,0.9844357977,4.811420372e-15,estimated
+Phi-4,V1,V3,20,0.7579253561,0.0001082109787,estimated
+Phi-4,V2,V3,20,0.7638932723,8.852240211e-05,estimated

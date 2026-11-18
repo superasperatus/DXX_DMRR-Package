@@ -1,0 +1,21 @@
+model_id,item_id,condition,valid_count,reason
+gpt-4.1,ITEM_116,BA,0,content filter
+gpt-4.1,ITEM_118,BA,0,content filter
+gpt-4.1,ITEM_119,AB,0,content filter
+gpt-4.1,ITEM_119,BA,0,content filter
+gpt-4.1,ITEM_193,BA,0,content filter
+gpt-4.1-mini,ITEM_116,BA,0,content filter
+gpt-4.1-mini,ITEM_118,BA,0,content filter
+gpt-4.1-mini,ITEM_119,AB,0,content filter
+gpt-4.1-mini,ITEM_119,BA,0,content filter
+gpt-4.1-mini,ITEM_193,BA,0,content filter
+gpt-4o,ITEM_116,BA,0,content filter
+gpt-4o,ITEM_118,BA,0,content filter
+gpt-4o,ITEM_119,AB,0,content filter
+gpt-4o,ITEM_119,BA,0,content filter
+gpt-4o,ITEM_193,BA,0,content filter
+o4-mini,ITEM_116,BA,0,content filter
+o4-mini,ITEM_118,BA,0,content filter
+o4-mini,ITEM_119,AB,0,content filter
+o4-mini,ITEM_119,BA,0,content filter
+o4-mini,ITEM_193,BA,0,content filter
